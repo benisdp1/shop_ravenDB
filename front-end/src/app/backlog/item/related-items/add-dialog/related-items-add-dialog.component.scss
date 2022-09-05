@@ -1,0 +1,10 @@
+@import 'flex-layout';
+@import 'list-filter-dialog';
+
+mat-dialog-actions.mat-dialog-actions {
+	justify-content: space-between;
+}
+
+mat-option.mat-option {
+	font-size: 11px;
+}

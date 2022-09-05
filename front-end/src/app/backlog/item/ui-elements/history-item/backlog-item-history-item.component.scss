@@ -1,0 +1,25 @@
+:host {
+	font-family: 'Segoe UI VSS (Regular)', 'Segoe UI', '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Ubuntu,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.timestamp {
+	font-size: 11px;
+	color: #888;
+}
+.name {
+	font-size: 15px;
+}
+
+.vertical-alignment {
+	display: flex;
+	flex-direction: column;
+}
+.spread-out {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.summary {
+	color: rgba(0, 0, 0, 0.55);
+	padding-top: 8px;
+}

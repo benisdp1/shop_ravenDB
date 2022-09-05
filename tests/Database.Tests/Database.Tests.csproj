@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<IsPackable>false</IsPackable>
+
+		<RootNamespace>Raven.Yabt.Database.Tests</RootNamespace>
+
+		<AssemblyName>Database.Tests</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\back-end\Database\Database.csproj" />
+	</ItemGroup>
+
+</Project>

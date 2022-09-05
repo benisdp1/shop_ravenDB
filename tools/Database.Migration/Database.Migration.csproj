@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <AssemblyName>Database.Migration</AssemblyName>
+        <RootNamespace>Raven.Yabt.Database.Migration</RootNamespace>
+		
+		<UserSecretsId>a360accb-0b49-44f4-a921-faff5ca5c55d</UserSecretsId>
+    </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+		<PackageReference Include="RavenMigrations" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\back-end\Database\Database.csproj" />
+	</ItemGroup>
+
+</Project>
